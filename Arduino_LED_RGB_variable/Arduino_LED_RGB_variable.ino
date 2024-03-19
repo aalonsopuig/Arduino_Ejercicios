@@ -1,7 +1,7 @@
 //Control LED RGB con tres potenciómetros
 
 //uncomment this line if using a Common Anode LED
-#define COMMON_ANODE
+//#define COMMON_ANODE
 
 //Variables globales
 //Potenciómetros
@@ -46,9 +46,9 @@ void loop()
 {
   //Leemos valor de potenciómetros. Puertos son de 10 bits
   //por ello dividimos por 4, para reducir el valor a 8 bits (0-255)
-  IntenR = analogRead(pot1) / 4;
-  IntenG = analogRead(pot2) / 4;
-  IntenB = analogRead(pot3) / 4;
+  IntenR = map(analogRead(pot1),0,1023,0,255);
+  IntenG = map(analogRead(pot2),0,1023,0,255);
+  IntenB = map(analogRead(pot3),0,1023,0,255);
 
   delay(100);
 
