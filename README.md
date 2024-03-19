@@ -33,3 +33,35 @@ Este programa hace parpadear progresivamente el led conectado al pin 6. Para ell
 * [Vídeo explicativo corto](https://youtube.com/shorts/ALIiVMjG1F0?feature=share)
 
 ![image](https://github.com/aalonsopuig/Arduino_Ejercicios/assets/57196844/844c5df6-cb4a-4fa2-9833-353ada428b8c)
+
+***
+# Lectura analógica y envío de valores al PC
+
+Este ejemplo lee un valor analógico, como por ejemplo el de un potenciómetro actuando como divisor de tensión y lo envía al PC, donde puede mostrarlo como un valor o como gráfica de valores.
+Nótese que los valores recibidos por el pin analógico varían entre 0 y 1023, debido a que el conversor analógico-digital utilizado por los pines analógicos de arduino es de 10 bits.
+
+* [Código fuente](https://github.com/aalonsopuig/Arduino_Ejercicios/tree/main/Arduino_Potenciometro_y_PC)
+* [Simulación TinkerCad](https://www.tinkercad.com/things/aR4O5xIxLOv-arduinopotenciometroypc)
+* [Vídeo explicativo corto](https://youtube.com/shorts/UDSLEapQHSM?feature=share)
+
+![image](https://github.com/aalonsopuig/Arduino_Ejercicios/assets/57196844/847aeef6-e03d-412e-be9a-466ee533b993)
+
+***
+# Control LED RGB con tres potenciómetros
+
+Este ejemplo lee tres valores analógicos de tres potenciómetros y genera tres señales PWM para controlar la intensidad de los canales R(Red/rojo), G(Green/verde) y B(Blue/azul) de un led multicolor. Utilizamos la función map para convertir la señal analógica de 10 bits en una de pwm de 8 bits:
+
+```c++
+IntenR = map(analogRead(pot1),0,1023,0,255);
+IntenG = map(analogRead(pot2),0,1023,0,255);
+IntenB = map(analogRead(pot3),0,1023,0,255);
+```
+
+* [Código fuente](https://github.com/aalonsopuig/Arduino_Ejercicios/tree/main/Arduino_LED_RGB_variable)
+* [Simulación TinkerCad](https://www.tinkercad.com/things/f6wgzFWe1Yb-arduino-led-rgb-variable)
+* [Vídeo explicativo corto](https://youtube.com/shorts/53BZk5XmW8s?feature=share)
+
+![image](https://github.com/aalonsopuig/Arduino_Ejercicios/assets/57196844/dbee30bc-ebb0-4ac4-9e4a-ca481d578754)
+
+
+***
