@@ -35,7 +35,7 @@ Este programa hace parpadear progresivamente el led conectado al pin 6. Para ell
 ![image](https://github.com/aalonsopuig/Arduino_Ejercicios/assets/57196844/844c5df6-cb4a-4fa2-9833-353ada428b8c)
 
 ***
-# Lectura analógica y envío valor a PC
+# Lectura analógica y envío de valores al PC
 
 Este ejemplo lee un valor analógico, como por ejemplo el de un potenciómetro actuando como divisor de tensión y lo envía al PC, donde puede mostrarlo como un valor o como gráfica de valores.
 Nótese que los valores recibidos por el pin analógico varían entre 0 y 1023, debido a que el conversor analógico-digital utilizado por los pines analógicos de arduino es de 10 bits.
