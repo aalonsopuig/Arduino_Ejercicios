@@ -12,6 +12,18 @@ Este programa hace parpadear un LED conectado al pin 8 de Arduino. En el ciclo l
 ![image](https://github.com/aalonsopuig/Arduino_Ejercicios/assets/57196844/f2060686-241d-4856-a6e8-8b56f27cf7e8)
 
 ***
+# LED activado por pulsador
+
+Este ejemplo sencillo muestra cómo leer una entrada digital (Pulsador) y activar una salida digital (LED) en función de la anterior.
+
+* [Código fuente](https://github.com/aalonsopuig/Arduino_Ejercicios/tree/main/Arduino_LED_y_pulsador)
+* [Simulación TinkerCad](https://www.tinkercad.com/things/2WXCKrdEzCV-led-pulsador)
+* [Vídeo explicativo corto](https://youtube.com/shorts/opFZMtsbQN8?feature=share)
+
+![image](https://github.com/aalonsopuig/Arduino_Ejercicios/assets/57196844/b85f563c-3d8e-40dd-a717-fe9f89dc096a)
+
+
+***
 # Parpadeo LED progresivo
 
 Este programa hace parpadear progresivamente el led conectado al pin 6. Para ello genera una señal PWM variable en dicho pin.
