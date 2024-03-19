@@ -49,7 +49,7 @@ Nótese que los valores recibidos por el pin analógico varían entre 0 y 1023, 
 ***
 # Control LED RGB con tres potenciómetros
 
-Este ejemplolee tres valores analógicos de tres potenciómetros y genera tres señales PWM para controlar la intensidad de los canales R(Red/rojo), G(Green/verde) y B(Blue/azul) de un led multicolor. Utilizamos la función map para convertir la señal analógica de 10 bits en una de pwm de 8 bits:
+Este ejemplo lee tres valores analógicos de tres potenciómetros y genera tres señales PWM para controlar la intensidad de los canales R(Red/rojo), G(Green/verde) y B(Blue/azul) de un led multicolor. Utilizamos la función map para convertir la señal analógica de 10 bits en una de pwm de 8 bits:
 
 ```c++
 IntenR = map(analogRead(pot1),0,1023,0,255);
