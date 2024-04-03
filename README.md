@@ -65,3 +65,15 @@ IntenB = map(analogRead(pot3),0,1023,0,255);
 
 
 ***
+# Lectura de múltiples sensores y envío a PC
+
+El programa de Arduino configura entradas analógicas para leer datos de un potenciómetro, un LDR, y un sensor de temperatura, y comunica estos valores a la computadora mediante serial. Utiliza un pulsador para controlar un LED interno, ofreciendo interacción manual. Adicionalmente, controla un LED externo para crear un efecto de parpadeo, encendiéndolo y apagándolo en intervalos de 100 milisegundos, lo que proporciona una señalización visual dinámica mientras gestiona la entrada de datos sensoriales y la interacción del usuario.
+
+* [Código fuente](https://github.com/aalonsopuig/Arduino_Ejercicios/tree/main/Arduino_sensores_y_pc)
+* [Simulación TinkerCad](https://www.tinkercad.com/things/3x109VKsHeD-sensores-y-pc)
+* [Vídeo explicativo corto](https://youtube.com/shorts/_XR1UtvLUYw?feature=share)
+
+![image](https://github.com/aalonsopuig/Arduino_Ejercicios/assets/57196844/edf5e7f7-a414-40b8-a3e4-e613874ca3b2)
+
+
+***
