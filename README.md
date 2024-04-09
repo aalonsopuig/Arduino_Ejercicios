@@ -84,7 +84,8 @@ Programa que permite controlar un motor DC mediante un potenciómetro leyendo el
 * [Código fuente](https://github.com/aalonsopuig/Arduino_Ejercicios/tree/main/Arduino_control_motor_PWM_Simple)
 * [Simulación TinkerCad](https://www.tinkercad.com/things/7sXboqAGpC0-control-motor-con-pwm-lcd)
 
-![image](https://github.com/aalonsopuig/Arduino_Ejercicios/assets/57196844/00507ec8-80b2-437a-a496-0236c8b2ff17)
+![image](https://github.com/aalonsopuig/Arduino_Ejercicios/assets/57196844/598d1f7b-bb65-472c-8f04-7a2440dce71e)
+
 
 
 ***
