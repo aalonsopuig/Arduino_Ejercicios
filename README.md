@@ -85,6 +85,7 @@ La fuente externa alimenta tanto el motor, como arduino. Arduino alimenta a 5v e
 * [Código fuente](https://github.com/aalonsopuig/Arduino_Ejercicios/tree/main/Arduino_control_motor_PWM_Simple)
 * [Simulación TinkerCad](https://www.tinkercad.com/things/7sXboqAGpC0-control-motor-con-pwm-lcd)
 
-![image](https://github.com/aalonsopuig/Arduino_Ejercicios/assets/57196844/b8f021ec-862d-4a62-a77f-9fc0719a04b2)
+![image](https://github.com/aalonsopuig/Arduino_Ejercicios/assets/57196844/c1128745-59a7-4d73-9e00-cb8a1f47ca35)
+
 
 ***
