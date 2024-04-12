@@ -101,6 +101,16 @@ Se utiliza un LCD de 16x2 caracteres de tipo I2C.
 
 ![image](https://github.com/aalonsopuig/Arduino_Ejercicios/assets/57196844/e12b91db-7af6-44d6-a32a-109421458959)
 
+***
+# Sonar rotacional
+
+Programa que hace girar un servo con un sensor de ultrasonidos montado sobre él. Por cada grado que gira, el sonar mide la distancia y la envía por el puerto serie para graficarla.
+
+* [Código fuente](https://github.com/aalonsopuig/Arduino_Ejercicios/tree/main/Arduino_sonar_rotacional)
+* [Simulación TinkerCad](https://www.tinkercad.com/things/lNFQGIqOJld-sonar-rotacional)
+
+
+![image](https://github.com/aalonsopuig/Arduino_Ejercicios/assets/57196844/642c364c-174e-4177-8789-a9d51993cbde)
 
 
 ***
