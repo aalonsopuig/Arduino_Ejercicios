@@ -90,3 +90,17 @@ La fuente externa alimenta tanto el motor, como arduino. Arduino alimenta a 5v e
 
 
 ***
+# Uso de flags para contar sin repetición
+
+Ejemplo de uso de flags (variable estaba_Pulsado) de estado para contar las veces que se pulsa el led, sin que el contador se incremente continuamente en caso de dejar pulsado el botón. 
+Se utiliza un LCD de 16x2 caracteres de tipo I2C.
+
+* [Código fuente](https://github.com/aalonsopuig/Arduino_Ejercicios/tree/main/Arduino_contador_pulsaciones_con_lcd_i2c)
+* [Simulación TinkerCad](https://www.tinkercad.com/things/cUA0Ui6qffv)
+
+
+![image](https://github.com/aalonsopuig/Arduino_Ejercicios/assets/57196844/e12b91db-7af6-44d6-a32a-109421458959)
+
+
+
+***
