@@ -77,3 +77,16 @@ El programa de Arduino configura entradas analógicas para leer datos de un pote
 
 
 ***
+# Control simple de motor mediante PWM con Display
+
+Programa que permite controlar un motor DC mediante un potenciómetro leyendo el valor de este y convirtiéndolo en un valor PWM. Adicionalmente muestra en el display este valor.
+La fuente externa alimenta tanto el motor, como arduino. Arduino alimenta a 5v el resto del circuito. El potenciómetro de la izquierda controla el contraste del LCD. Al de la derecha es el utilizado por Arduino como interfaz de usuario para identificar el PWM que queremos generar. Si el motor consume muy poco (<150mA), este se puede alimentad directamente de Arduino, sin utilizar la fuente externa, aunque es altamente recomendable utilizar una fuente externa para evitar posibles daños en el regulador de tensión del Arduino.
+
+* [Código fuente](https://github.com/aalonsopuig/Arduino_Ejercicios/tree/main/Arduino_control_motor_PWM_Simple)
+* [Simulación TinkerCad](https://www.tinkercad.com/things/7sXboqAGpC0-control-motor-con-pwm-lcd)
+* [Vídeo explicativo corto](https://youtu.be/97mUTnVemPs)
+
+![image](https://github.com/aalonsopuig/Arduino_Ejercicios/assets/57196844/c1128745-59a7-4d73-9e00-cb8a1f47ca35)
+
+
+***
