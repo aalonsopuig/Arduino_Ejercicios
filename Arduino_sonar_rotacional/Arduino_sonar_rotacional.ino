@@ -22,7 +22,7 @@ float sonarPing() {
   //Función que lanza un ping y devuelve la distancia en cm
   float duration;
   float distance;
-  float max_distance=40;
+  float max_distance=40; //Limitación de máxima distancia a detectar (Rango)
   
   digitalWrite(TriggerPin, LOW);
   delayMicroseconds(2); // Espera 2 microsegundos
@@ -35,7 +35,7 @@ float sonarPing() {
   
   duration=pulseIn(EchoPin, HIGH);
   distance=(duration*0.034)/2;
-  if (distance>max_distance) distance=max_distance;
+  if (distance>max_distance) distance=max_distance; //Asegura el rango
   return(distance);
   
 }
