@@ -22,6 +22,7 @@ float sonarPing() {
   //Función que lanza un ping y devuelve la distancia en cm
   float duration;
   float distance;
+  float max_distance=40;
   
   digitalWrite(TriggerPin, LOW);
   delayMicroseconds(2); // Espera 2 microsegundos
@@ -34,6 +35,9 @@ float sonarPing() {
   
   duration=pulseIn(EchoPin, HIGH);
   distance=(duration*0.034)/2;
+  if (distance>max_distance) distance=max_distance;
+  return(distance);
+  
 }
 
 void setup() {
@@ -51,11 +55,10 @@ void loop() {
     delay(15); // espera 15 msg para que le de tiempo al servo a moverse
   }
   
-  for (servo_pos = 180; servo_pos >= 0; servo_pos -= 10) { 
+  for (servo_pos = 180; servo_pos >= 0; servo_pos -= 1) { 
     //de 180 a 0 grados en pasos de 10 grados
   	Serial.println(0);
     myservo.write(servo_pos); //mueve el servo a la posición
     delay(15); //espera 15 msg para que le de tiempo al servo a moverse
   }
 }
-
