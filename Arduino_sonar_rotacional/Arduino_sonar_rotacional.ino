@@ -10,8 +10,8 @@ distancia y la envía por el puerto serie para graficarla.
 Servo myservo; //crea un objeto servo para controlar el servo
 
 //Pines de sonar y servo
-const int TriggerPin=13;
-const int EchoPin=12;
+const int TriggerPin=10;
+const int EchoPin=9;
 const int ServoPin=3;
 
 int servo_pos = 0; //variable que almacena la posición del servo
@@ -33,9 +33,10 @@ float sonarPing() {
   digitalWrite(TriggerPin, LOW);
   
   
-  duration=pulseIn(EchoPin, HIGH);
+  duration=pulseIn(EchoPin, HIGH, 4000); //Medimos tiempo de pulso, con un timeout de 4000
   distance=(duration*0.034)/2;
   if (distance>max_distance) distance=max_distance; //Asegura el rango
+  if (distance==0) distance=max_distance; //No detecta. Demasiado lejos
   return(distance);
   
 }
@@ -55,7 +56,7 @@ void loop() {
     delay(15); // espera 15 msg para que le de tiempo al servo a moverse
   }
   
-  for (servo_pos = 180; servo_pos >= 0; servo_pos -= 1) { 
+  for (servo_pos = 180; servo_pos > 0; servo_pos -= 1) { 
     //de 180 a 0 grados en pasos de 10 grados
   	Serial.println(0);
     myservo.write(servo_pos); //mueve el servo a la posición
