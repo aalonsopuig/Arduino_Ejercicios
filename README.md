@@ -110,6 +110,24 @@ Programa que hace girar un servo con un sensor de ultrasonidos montado sobre él
 * [Simulación TinkerCad](https://www.tinkercad.com/things/lNFQGIqOJld-sonar-rotacional)
 
 
-![image](https://github.com/aalonsopuig/Arduino_Ejercicios/assets/57196844/62447833-469d-4972-b28c-3c16262ef328)
+![image](https://github.com/aalonsopuig/Arduino_Ejercicios/assets/57196844/86d5eb2a-5326-49d9-9052-43ffcde90f99)
+
+
 
 ***
+# Grúa con Arduino
+
+Vamos a montar una grúa con dos servos colocados en configuración pan&tilt. Los servos serán controlados por un Arduino. Utilizaremos un joystick con dos potenciómetros para controlar los servos y así la grúa.
+
+![Grua_arduino](https://github.com/aalonsopuig/Arduino_Ejercicios/assets/57196844/4b895039-21da-401f-bcd0-d250f35c45a6)
+
+
+* [Código fuente y piezas 3D](https://github.com/aalonsopuig/Arduino_Ejercicios/tree/main/Arduino_grua_2_servos)
+* [Simulación TinkerCad](https://www.tinkercad.com/things/aelj4MkMWm2-grua-2-servos)
+* [Vídeo explicativo corto](https://youtube.com/shorts/xqiwwrvN0-8?feature=share)
+  
+
+![Tinkercad_sim](https://github.com/aalonsopuig/Arduino_Ejercicios/assets/57196844/031e2a53-a040-41c7-9b94-69aca0189a3b)
+
+***
+
