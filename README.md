@@ -110,7 +110,8 @@ Programa que hace girar un servo con un sensor de ultrasonidos montado sobre él
 * [Simulación TinkerCad](https://www.tinkercad.com/things/lNFQGIqOJld-sonar-rotacional)
 
 
-![image](https://github.com/aalonsopuig/Arduino_Ejercicios/assets/57196844/62447833-469d-4972-b28c-3c16262ef328)
+![image](https://github.com/aalonsopuig/Arduino_Ejercicios/assets/57196844/0d638ccb-7b4d-4626-a88b-1e4955be0ba3)
+
 
 ***
 # Grúa con Arduino
